@@ -50,6 +50,7 @@ def loop():
         sum = sum + number
     print(sum)
 
-loop()```
+loop()
+```
 
 
