@@ -1,7 +1,5 @@
-def EvenOdd():
-    num = float(input("enter number"))
-    if num % 2 == 0:
-        print("even")
-    else:
-        print("odd")
-EvenOdd()
+num = float(input("Enter a number: "))
+if num % 2 == 0:
+    print("The number",num," is even")
+else:
+    print("The number",num," is odd") 
