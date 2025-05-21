@@ -16,14 +16,11 @@ This Python script prompts the user to input a number and checks whether the num
 
 **Code Snippet:**
 ```python
-def EvenOdd():
-    num = float(input("enter number"))
-    if num % 2 == 0:
-        print("even")
-    else:
-        print("odd")
-
-EvenOdd()
+num = float(input("Enter a number: "))
+if num % 2 == 0:
+    print("The number",num," is even")
+else:
+    print("The number",num," is odd") 
 ```
 ---
 ## 📘 Task 2: Sum of Integers from 1 to 50 Using a Loop
@@ -44,11 +41,10 @@ Note: Python's range(1, 50) includes 1 to 49. If the sum should include 50, use 
 
 **Code Snippet:**
 ```python
-def loop():
-    sum = 0
-    for number in range(1, 50):
-        sum = sum + number
-    print(sum)
+sum = 0
+for i in range(1,50):
+    sum = sum + i
+print("The sum of 1 to 50 is",sum)
 
 loop()
 ```
