@@ -24,7 +24,7 @@ def EvenOdd():
         print("odd")
 
 EvenOdd()
-
+```
 # Assignment 2 – Module 3: Control Structures in Python
 
 This repository contains two Python scripts developed as part of Assignment 2 for the **Python Tutedude Course – Module 3**.
@@ -55,6 +55,6 @@ def loop():
         sum = sum + number
     print(sum)
 
-loop()
+loop()```
 
 
