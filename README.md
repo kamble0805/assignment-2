@@ -34,13 +34,13 @@ This script calculates the sum of integers from 1 to 49 (based on the current lo
 Note: Python's range(1, 50) includes 1 to 49. If the sum should include 50, use range(1, 51).
 
 **Functionality**
-Initializes a sum variable.
+- Initializes a sum variable.
 
-Iterates using a for loop.
+- Iterates using a for loop.
 
-Adds each number in the range to the sum.
+- Adds each number in the range to the sum.
 
-Displays the final result.
+- Displays the final result.
 
 **Code Snippet:**
 ```python
